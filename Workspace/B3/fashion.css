@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul{
+list-style: none;
+}
+header {
+  height: 50px;
+  width: 1720px;
+  background-color: aqua;
+  margin: auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  line-height: 50px;
+}
+.header_navbar {
+  list-style: none;
+  display: flex;
+}
+.header_nav {
+  float: left;
+  justify-content: space-between;
+  /* margin-right:120px ; */
+}
+
+.header_navlink {
+  text-decoration: none;
+  margin: 0 10px;
+  line-height: 27px;
+}
+
+.ex_active:visited {
+  color: #c9a96e;
+}
+
+.baner {
+  background-image: url(./banner.png);
+  height: 300px;
+  width: 1720px;
+  margin: auto;
+}
+.baner_text{
+  padding-left: 300px ;
+  padding-top: 175px;
+  color: white;
+}
+ .baner_heading {
+  width: 300px;
+}
+.container{
+  width: 1520px;
+  margin-top: 10px;
+  margin: auto;
+  display: flex;
+}
+.wrapper{
+  width: 70%;
+}
+.search{
+  width: 370px;
+  height: 35px;
+  margin: 20px 25px;
+}
+.info_list{
+  margin: 10px 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.info_text{
+  text-align: center;
+}
+.info_heading{
+  width: 300px;
+  padding-left: 35px;
+}
+.full-text{
+  margin: 25px 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.box2{
+  width: 30%;
+
+  
+}
+.spam-link{
+  width: 220px;
+  margin: 20px 100px;
+  border: 1px solid black;
+  padding: 10px 20px;
+  text-align: center;
+}
+.spam-link>a:hover{
+  color: red;
+}
+.spam_list{
+  text-align: center;
+}
+.spam-text{}
+
+.para-spam{
+position: absolute;
+text-align: center;
+width: 270px;
+margin-left: 100px;
+}
+.spam-link1{
+  width: 220px;
+  margin: 70px 100px;
+  border: 1px solid black;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+

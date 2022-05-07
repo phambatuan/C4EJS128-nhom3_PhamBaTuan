@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#app{
+  width: 720px;
+  margin: auto;
+}
+ul{
+  padding-left: 70px;
+}
+.header{
+  padding-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 25px;
+  color:rgb(125,14,4);
+  line-height: 30px;
+  border-top-style: double;
+  border-bottom-style: double;
+  background-color: rgb(254,229,225);
+}
+p{
+  color: rgb(0,0,0);
+  margin-bottom: 10px;
+}
+.week{
+padding-left: 10px;
+background-color: #e7e5fa;
+border: 2px solid blue;
+width: 600px;
+}
+h3{
+  color:blue;
+  padding-left: 30px;
+}
+span{
+  color: red;
+}
+.week1{
+  margin-bottom: 10px;
+}
+
+
+

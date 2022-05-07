@@ -1,0 +1,21 @@
+*{
+  border: 0;
+}
+h1,p{
+  color: red;
+}
+
+.title{
+  color: orangered;
+}
+.text-transform{
+  text-transform: uppercase;
+}
+#article-title{
+  font-family: cursive;
+}
+a:hover{
+  color: yellow;
+}
+a[href="https://www.nationalgeographic.com/travel/destination/florence"] { color: brown;
+}
