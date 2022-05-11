@@ -50,3 +50,5 @@ alert("after lower case: " + myLowerCase);
 let a = prompt("First number?");
 let b = prompt("Second number?");
 alert(a + b); // 12
+
+
