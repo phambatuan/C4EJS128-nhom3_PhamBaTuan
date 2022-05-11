@@ -35,39 +35,30 @@ if (a || b === true) {
 
 let num = parseInt(prompt("số cần check là: "));
 isPrime = true;
-switch (num) {
-  case (num ==1):
-    console.log("1 không phải là số nguyên tố:");
-    break;
-  case (num ==2):
-    console.log("2 là số nguyên tố:");
-    break;
-  case (num > 2 && num % 2 !=0):
-    console.log(`${num}không là số nguyên tố`);
-    break;
+// switch (num) {
+//   case (num ==1):
+//     console.log("1 không phải là số nguyên tố:");
+//     break;
+//   case (num ==2):
+//     console.log("2 là số nguyên tố:");
+//     break;
+//   case (num > 2 && num % 2 !=0):
+//     console.log(`${num}không là số nguyên tố`);
+//     break;
 
-  default:
-    break;
+//   default:
+//     break;
+// }
+if(num ==1)
+{console.log("1 không phải là SNT");}
+else if(num == 2){
+  console.log("2 là SNT");
+}else if(num > 2 & num %2 != 0){
+  console.log(`${num} là SNT`);
+}else{
+  console.log(`${num} không là SNT`);
 }
-// if(num == 1){
-//   console.log("1 không phải là số nguyên tố:");
-//   if(num==2){
-//     console.log(isPrime);
-//     if(num>2 && num%2==0){
-//       console.log(!isPrime);
-//     }
-//   }
-// }
-// if (num == 1) {
-//   if ((num == 2)) 
-//   {
-//     console.log(isPrime);
-//     if (num % 2 == 0) {
-//       console.log(!isPrime);
-//     }
-//   }
-//   console.log("1 không phải là số nguyên tố:");
-// }
+
 
 //   case (num > 1):
 //       if(num % 1== 0 & num% num == 0){

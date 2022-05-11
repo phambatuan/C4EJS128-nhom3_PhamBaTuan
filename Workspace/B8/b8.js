@@ -55,4 +55,4 @@
 //  let b = '';
 //  if (a && true && !b) {
 //    console.log("hello")
-let a= prompt("mời bạn nhập ngày tháng năm: " DataView )
+
